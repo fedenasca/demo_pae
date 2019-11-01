@@ -7,7 +7,10 @@
 # bla bla bla bla bla bla
 # bla bla bla bla bla bla
 # bla bla bla bla bla bla
+<<<<<<< HEAD
 # bla bla bla bla bla bla  bla bla bla bla bla bla  bla bla bla bla bla bla  bla bla bla bla bla bla  bla bla bla bla bla bla  bla bla bla bla bla bla
+=======
+>>>>>>> origin/master
 # bla bla bla bla bla bla
 # bla bla bla bla bla bla
 # bla bla bla bla bla bla

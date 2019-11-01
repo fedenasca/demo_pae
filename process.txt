@@ -1,0 +1,18 @@
+﻿# DATOS DE USUARIO 
+###############################################################################
+Usuario: XXXXXXXXXXXXXXXX
+Constrasenia: XXXXXXXXXXXXXXXX
+
+# INICIALIZACION
+###############################################################################
+
+kinit -kt ~/ipedro.keytab ipedro
+
+
+
+2) <call_generic> y nombre del <.py> 	# PASO 2: 	DATA WRANGLING
+nohup ~/nba/pirs/modelo1_F/0_common_base/config/call_generic.sh 2_DataWrangling_pirs_spark_modelo1.py & tail -f ~/nba/pirs/modelo1_F/0_common_base/logs/mn_pirs_model1_dw.log
+
+
+3) <call_generic> y nombre del <.py> 	# PASO 3: 	DATA SPLIT 
+nohup ~/nba/pirs/modelo1_F/0_common_base/config/call_generic.sh 3_DatasetSplit_pirs_spark_modelo1.py & tail -f ~/nba/pirs/modelo1_F/0_common_base/logs/mn_pirs_model1_ds.log
